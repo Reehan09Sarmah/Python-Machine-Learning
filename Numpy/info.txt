@@ -1,0 +1,21 @@
+MultiDimensional Array Library --> Numpy
+
+Numpy Arrays --> Very fast
+  -   as they are Fixed Type
+      Like elements in list have many bits associated with it describing its size,
+      type, value, etc. Whereas one element in a Numpy Array depends on the type
+      --> int or string or etc...
+  -   Faster to read less bytes of memory
+  -   No type checking when iterating through objects
+  -   Uses Contiguous memory (List elements are scattered around)
+        - SIMD Vector Processing
+        - Effective Cache Utilisation (Keeping everything closer in cache for fast access)
+
+
+* We Can perform all functions done in lists plus many more
+
+Application of NumPy:
+- Mathematics
+- Plotting (Matplotlib)
+- Backend (Pandas, Connect 4, etc)
+- Machine Learning
