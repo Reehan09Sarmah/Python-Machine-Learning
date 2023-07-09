@@ -21,4 +21,4 @@ plt.plot(data.year, reg.predict(data[['year']]), color='blue')
 plt.show()
 
 # predict the per capita income for the year 2020
-print(reg.predict([[2020]]))  # .predict(x) --> x must be a 2D Array
+print(reg.predict([[2017]]))  # .predict(x) --> x must be a 2D Array
